@@ -1,0 +1,14 @@
+[host_machine]
+system = 'linux'
+cpu_family = 'aarch64'
+cpu = 'armv8-a'
+endian = 'little'
+
+[paths]
+prefix = '/usr/local'
+libdir = '/usr/local/lib'
+bindir = '/usr/local/bin'
+
+[properties]
+c_args = ['-Dskip-sanity-check=true']
+

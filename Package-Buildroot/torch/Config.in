@@ -1,0 +1,18 @@
+config BR2_PACKAGE_TORCH
+    bool "PyTorch"
+    depends on BR2_PACKAGE_PYTHON3
+    select BR2_PACKAGE_NUMPY
+    select BR2_PACKAGE_PYYAML
+    select BR2_PACKAGE_REQUESTS
+    select BR2_PACKAGE_TYPING_EXTENSIONS
+    help
+      PyTorch est un framework open-source pour l’apprentissage profond.
+
+      Dépendances :
+        - numpy
+        - pyyaml
+        - requests
+        - typing_extensions
+
+      Site officiel : https://pytorch.org
+

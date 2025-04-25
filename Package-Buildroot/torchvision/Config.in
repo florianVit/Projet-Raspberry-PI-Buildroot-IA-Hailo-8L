@@ -1,0 +1,16 @@
+config BR2_PACKAGE_TORCHVISION
+    bool "Torchvision"
+    depends on BR2_PACKAGE_TORCH
+    select BR2_PACKAGE_NUMPY
+    select BR2_PACKAGE_PILLOW
+    select BR2_PACKAGE_REQUESTS
+    help
+      Torchvision fournit des outils pour manipuler des images et charger des modèles pré-entraînés.
+
+      Dépendances :
+        - torch
+        - pillow (traitement d’images)
+        - requests (téléchargement de modèles)
+
+      Site officiel : https://pytorch.org/vision/stable/index.html
+

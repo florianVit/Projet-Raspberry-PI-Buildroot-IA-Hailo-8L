@@ -1,0 +1,5 @@
+config BR2_PACKAGE_TENSORFLOW_PROJECTS
+    bool "tensor-project"
+    select BR2_PACKAGE_OPENCV4
+    help
+      Demo minimal utilisant TFLite avec un modèle .tflite préchargé.

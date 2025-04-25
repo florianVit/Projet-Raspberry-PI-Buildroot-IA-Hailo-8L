@@ -1,0 +1,14 @@
+config BR2_PACKAGE_PANDAS
+    bool "Pandas"
+    depends on BR2_PACKAGE_PYTHON3
+    select BR2_PACKAGE_NUMPY
+    help
+      Pandas est une bibliothèque pour manipuler et analyser des structures de données.
+
+      Dépendances :
+        - numpy
+        - python-dateutil (gestion des dates)
+        - pytz (gestion des fuseaux horaires)
+
+      Site officiel : https://pandas.pydata.org
+

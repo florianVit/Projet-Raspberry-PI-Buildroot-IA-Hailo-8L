@@ -1,0 +1,17 @@
+config BR2_PACKAGE_SEABORN
+    bool "Seaborn"
+    depends on BR2_PACKAGE_PANDAS
+    select BR2_PACKAGE_MATPLOTLIB
+    select BR2_PACKAGE_NUMPY
+    select BR2_PACKAGE_SCIPY
+    help
+      Seaborn est une bibliothèque pour créer des visualisations de données.
+
+      Dépendances :
+        - pandas
+        - matplotlib
+        - numpy
+        - scipy
+
+      Site officiel : https://seaborn.pydata.org
+

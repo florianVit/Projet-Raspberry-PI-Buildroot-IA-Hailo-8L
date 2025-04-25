@@ -1,0 +1,30 @@
+config BR2_PACKAGE_ULTRALYTICS
+    bool "Ultralytics"
+    depends on BR2_PACKAGE_PYTHON3
+    select BR2_PACKAGE_TORCH
+    select BR2_PACKAGE_TORCHVISION
+    select BR2_PACKAGE_PANDAS
+    select BR2_PACKAGE_NUMPY
+    select BR2_PACKAGE_PILLOW
+    select BR2_PACKAGE_PYYAML
+    select BR2_PACKAGE_REQUESTS
+    select BR2_PACKAGE_SCIENTIFIC
+    select BR2_PACKAGE_PSUTIL
+    select BR2_PACKAGE_TQDM
+    help
+      Ultralytics est un framework basé sur PyTorch utilisé pour la détection d'objets, en particulier YOLO.
+
+      Dépendances :
+        - torch
+        - torchvision
+        - pandas
+        - numpy
+        - pillow
+        - pyyaml
+        - requests
+        - scipy
+        - psutil
+        - tqdm
+
+      Site officiel : https://github.com/ultralytics/ultralytics
+

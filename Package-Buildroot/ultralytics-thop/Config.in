@@ -1,0 +1,13 @@
+config BR2_PACKAGE_ULTRALYTICS_THOP
+    bool "Ultralytics-THOP"
+    depends on BR2_PACKAGE_TORCH
+    select BR2_PACKAGE_NUMPY
+    help
+      Ultralytics-THOP est une bibliothèque pour calculer les FLOPs des modèles.
+
+      Dépendances :
+        - torch
+        - numpy
+
+      Site officiel : https://github.com/ultralytics/thop
+
