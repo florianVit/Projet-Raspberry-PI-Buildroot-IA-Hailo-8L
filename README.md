@@ -22,7 +22,7 @@ Ce projet vise à générer une image Linux minimale et personnalisée via **Bui
 ## 📂 Documentation
 
 Le dossier Github contient :
-- Un dossier [`/Packages-Buildroot`](./Packages-Buildroot) avec les divers packages pour utiliser ultralytics et hailo sur un buildroot
+- Un dossier [`/Packages-Buildroot`](./Package-Buildroot) avec les divers packages pour utiliser ultralytics et hailo sur un buildroot
 - Les divers fiches techniques pour aider dans l'installation et solutions à des erreurs
 
 ---
