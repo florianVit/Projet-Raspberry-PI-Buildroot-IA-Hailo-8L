@@ -48,4 +48,4 @@ Nous avons intégré :
 
 ---
 
-### Par : Julien REYNAUD, Florian VITOUX, Lauric GBOZO, Michel Ulrich KENKAM KENGNE
+### Par : Julien REYNAUD & Florian VITOUX
